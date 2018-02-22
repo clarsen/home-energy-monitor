@@ -1,0 +1,3 @@
+* * * * * bash wunderground-to-influx/run.sh && curl -fsS --retry 3 https://hchk.io/your_key > /dev/null
+* * * * * bash RainEagle/run.sh && curl -fsS --retry 3 https://hchk.io/your_key > /dev/null
+* * * * * bash raspberry-pi/collect-temp.sh && curl -fsS --retry 3 https://hchk.io/your_key > /dev/null
