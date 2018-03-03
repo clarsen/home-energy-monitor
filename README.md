@@ -6,8 +6,9 @@
     # Add crontab.pi to pi's crontab
     git clone https://github.com/clarsen/RainEagle.git
     git clone https://github.com/clarsen/ruuvitag-sensor.git
-    git clone https://github.com/clarsen/wunderground-to-influx.git (to be created)
-    git clone https://github.com/clarsen/nest-to-influx.git (to be created)
+    git clone https://github.com/clarsen/nest-to-influx.git
+
+    # go to wunderground-to-influx/ and follow README
 
 # startup
     tmux
