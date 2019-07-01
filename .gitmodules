@@ -1,0 +1,12 @@
+[submodule "nest-to-influx-config"]
+	path = nest-to-influx-config
+	url = git@github.com:clarsen/nest-to-influx-config.git
+[submodule "RainEagle"]
+	path = RainEagle
+	url = https://github.com/clarsen/RainEagle.git
+[submodule "nest-to-influx"]
+	path = nest-to-influx
+	url = https://github.com/clarsen/nest-to-influx.git
+[submodule "ruuvitag-sensor"]
+	path = ruuvitag-sensor
+	url = https://github.com/clarsen/ruuvitag-sensor.git

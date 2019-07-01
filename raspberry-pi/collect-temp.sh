@@ -14,5 +14,9 @@ CPU=$cpuTemp1"."$cpuTempM
 GPU=$(/opt/vc/bin/vcgencmd measure_temp | tr -cd '0-9.')
  
 #echo CPU=$CPU,GPU=$GPU
-curl -i -XPOST 'http://localhost:8086/write?db=ruuvi' --data-binary 'temperature.pi CPU='$CPU',GPU='$GPU
+# curl -i -XPOST 'http://localhost:8086/write?db=ruuvi' --data-binary 'temperature.pi CPU='$CPU',GPU='$GPU
+curl -i -XPOST --cacert /home/pi/git/influxdb-selfsigned.crt \
+    -u energymon:qualm-altruist-hued \
+    'https://energy-influxdb:8086/write?db=ruuvi' --data-binary 'temperature.pi CPU='$CPU',GPU='$GPU
+
 rm $lock
