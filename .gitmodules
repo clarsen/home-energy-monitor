@@ -10,3 +10,6 @@
 [submodule "ruuvitag-sensor"]
 	path = ruuvitag-sensor
 	url = https://github.com/clarsen/ruuvitag-sensor.git
+[submodule "RuuviCollector"]
+	path = RuuviCollector
+	url = https://github.com/clarsen/RuuviCollector.git
