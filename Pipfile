@@ -1,26 +1,28 @@
 [[source]]
-
 url = "https://pypi.python.org/simple"
 verify_ssl = true
 name = "pypi"
 
-
 [dev-packages]
 
-
-
 [packages]
-
 requests = "*"
 influxdb = "*"
 pytz = "*"
 certifi = "*"
 python-nest = "*"
-pyyaml = "*"
+PyYAML = "==3.13"
 arrow = "*"
-sense-energy = "*"
-
+aiohttp = "*"
+Rx = "*"
 
 [requires]
+python_version = "3.7.3"
 
-python_version = "3.4"
+[packages.ea9b6e5]
+path = "./RainEagle"
+editable = true
+
+[packages.4ca3e16]
+path = "./sense"
+editable = true

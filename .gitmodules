@@ -13,3 +13,6 @@
 [submodule "RuuviCollector"]
 	path = RuuviCollector
 	url = https://github.com/clarsen/RuuviCollector.git
+[submodule "sense"]
+	path = sense
+	url = https://github.com/clarsen/sense.git
